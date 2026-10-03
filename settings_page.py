@@ -90,7 +90,7 @@ class SettingsPage(ctk.CTkFrame):
 
         fields = [
             ("Restaurant Name:", "entry_name", "e.g. Seaview Grill"),
-            ("Phone Number:", "entry_phone", "e.g. 03001234567"),
+            ("Phone Number:", "entry_phone", "e.g. +1 555-0100"),
             ("Address:", "entry_address", "e.g. 123 Main Street"),
         ]
         for i, (label, attr, placeholder) in enumerate(fields, start=1):
